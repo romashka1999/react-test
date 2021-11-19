@@ -104,7 +104,8 @@ const App = () => {
             </div>
           </article>
         </div>
-        <div className="w-320 lg:h-755 bg-white text-black px-5 py-24">
+
+        <div className="w-320 lg:h-755 bg-white text-black px-5 py-24 cutCorner">
           <h2 className="font-bold text-heading3 mb-5">
             Compensation Calculator
           </h2>

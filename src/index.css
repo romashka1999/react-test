@@ -1,3 +1,17 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.cutCorner {
+  position: relative;
+  clip-path: polygon(
+    14% 0,
+    85% 0,
+    100% 7%,
+    100% 93%,
+    86% 100%,
+    14% 100%,
+    0 94%,
+    0 7%
+  );
+}
